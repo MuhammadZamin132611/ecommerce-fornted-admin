@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+main.ant-layout-content{
+  background-color: transparent !important;
+}
+.ant-layout-sider {
+  flex: 0 0 250px !important;
+  min-width: 250px !important;
+  max-width: 250px !important;
+  width: 250px !important;
+}
+
+.ant-layout-sider-collapsed {
+  flex: 0 0 100px !important;
+  min-width: 100px !important;
+  max-width: 100px !important;
+  width: 100px !important;
+}
+
+.sm-demo-logo-vertical {
+  display: none;
+}
+
+.ant-layout-sider-collapsed .sm-demo-logo-vertical {
+  display: block;
+}
+
+.ant-layout-sider-collapsed .lg-demo-logo-vertical {
+  display: none;
+}
+
+.demo-logo-vertical {
+  background-color: #ffd333;
+  margin: 0px;
+  height: 64px;
+}
+
+main {
+  height: 79vh;
+  overflow-y: scroll;
+}
+main::-webkit-scrollbar{
+  width: 0px;
+}
+
+.ant-menu-title-content {
+  font-size: 16px;
+}
+
+/* .img-fluid{
+  height: 50px;
+} */
+
+.ant-layout-header h5 {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.ant-layout-header p {
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.ant-layout-header div .badge{
+  top: 16px;
+  right: -3px;
+}
+
+.error{
+  color: red;
+  font-size: 14px;
+}
